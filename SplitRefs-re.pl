@@ -32,6 +32,7 @@ use English;
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
 # Modified:	WLP	18 Feb 2020
 #	Standard uses
+#	Better chomp
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
@@ -43,7 +44,8 @@ $linecount = 0;
 while ($line = <>) {
 	# remove the end-of-line character, whatever it is
 	# (This assumes Unix line endings.)
-	chomp $line;
+	s/\R//g; # chomp that doesn't care about Linux & Windows
+	#perhaps s/\R*$//; if we want to leave in \r characters in the middle of a line 
 	$linecount++;
 	#print STDERR "[$line]\n";
 	# Check for the ref fields we are interested in
