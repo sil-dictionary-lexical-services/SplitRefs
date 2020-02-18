@@ -1,6 +1,12 @@
 #!/usr/bin/perl
 
+use 5.020;
 use utf8;
+use open qw/:std :utf8/;
+
+use strict;
+use warnings;
+use English;
 
 # SplitRefs-re.pl < infile.db > outfile.db
 
@@ -25,6 +31,7 @@ use utf8;
 # Created:	BB	25 Apr 2018
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
 # Modified:	WLP	18 Feb 2020
+#	Standard uses
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
