@@ -24,6 +24,7 @@ use utf8;
 
 # Created:	BB	25 Apr 2018
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
+# Modified:	WLP	18 Feb 2020
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
