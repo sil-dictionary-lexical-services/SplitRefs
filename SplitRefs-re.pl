@@ -33,6 +33,7 @@ use English;
 # Modified:	WLP	18 Feb 2020
 #	Standard uses
 #	Better chomp
+#	Better SFM handling
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
@@ -49,13 +50,13 @@ while ($line = <>) {
 	$linecount++;
 	#print STDERR "[$line]\n";
 	# Check for the ref fields we are interested in
-	if ($line =~ /^\\re/ || $line =~ /^\\rn/) {
+	if ($line =~ /^\\(re|rn) / ) {
 		# And we only care about the ones with semicolons
 		# For now we are not searching for commas,
 		# but that won't be appropriate for all db's.
 		if ($line =~ /[;]/) {
 			# Parse the line
-			if ($line =~ /^\\([a-z]+) (.+)$/) {
+			if ($line =~ /^\\([^ ]+) (.+)$/) {
 				$mkr = $1;
 				$fullcontents = $2;
 				
