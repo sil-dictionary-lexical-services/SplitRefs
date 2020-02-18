@@ -34,6 +34,7 @@ use English;
 #	Standard uses
 #	Better chomp
 #	Better SFM handling
+#	Simpler spaces around semicolon handling
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
@@ -62,8 +63,7 @@ while ($line = <>) {
 				
 				# First remove any spaces around semicolons,
 				# since it could be inconsistent
-				$fullcontents =~ s/ +;/;/g;
-				$fullcontents =~ s/; +/;/g;
+				$fullcontents =~ s/ *; */;/g;
 				
 				# Now split the contents on the semicolons
 				@targets = split(/;/, $fullcontents);
