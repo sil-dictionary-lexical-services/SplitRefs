@@ -24,6 +24,7 @@ use utf8;
 
 # Created:	BB	25 Apr 2018
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
+# Modified:	BB	 5 May 2020	Added comments to lines that can be customized
 
 $logfile = "splitrefs-re-log.txt";
 open(LOGFILE, ">$logfile");
@@ -39,10 +40,12 @@ while ($line = <>) {
 	$linecount++;
 	#print STDERR "[$line]\n";
 	# Check for the ref fields we are interested in
+	# EDIT THE NEXT LINE TO ADJUST WHICH MARKERS ARE GETTING SPLIT
 	if ($line =~ /^\\re/ || $line =~ /^\\rn/) {
 		# And we only care about the ones with semicolons
 		# For now we are not searching for commas,
 		# but that won't be appropriate for all db's.
+		# THIS LINE ONLY PICKS OUT LINES WITH SEMICOLON FOR SPLITTING
 		if ($line =~ /[;]/) {
 			# Parse the line
 			if ($line =~ /^\\([a-z]+) (.+)$/) {
@@ -55,6 +58,7 @@ while ($line = <>) {
 				$fullcontents =~ s/; +/;/g;
 				
 				# Now split the contents on the semicolons
+				# THIS LINE SPLITS ON THE SEMICOLON
 				@targets = split(/;/, $fullcontents);
 				foreach $target (@targets) {
 					print STDOUT "\\$mkr $target\n";
