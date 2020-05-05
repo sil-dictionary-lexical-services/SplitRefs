@@ -29,6 +29,8 @@ use utf8;
 $logfile = "splitrefs-log.txt";
 open(LOGFILE, ">$logfile");
 
+print LOGFILE "References with parentheses, if any (may need hand editing):\n\n";
+
 $linecount = 0;
 
 # iterate through the file, reading one line each time through the loop,
