@@ -1,0 +1,293 @@
+\_sh v3.0  400  MDF 4.0
+
+\lx sedikit
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge few
+\gn un peu
+\re few
+\rn un peu
+\dt 04/May/2020
+
+\lx kecil
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge small
+\gn petit
+\re small
+\rn petite; petit
+\dt 04/May/2020
+
+\lx besar
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge big
+\gn grand
+\re big
+\rn grande; grand
+\dt 04/May/2020
+
+\lx kedinginan
+\lf cf
+\lv dingin
+\le cold
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge cold
+\gn froid
+\re cold
+\rn froid
+\sn 2
+\ps Adjective
+\pn Adjectif
+\ge coldness
+\gn froid
+\re coldness; cold
+\rn rhume; froid; froideur
+\dt 04/May/2020
+
+\lx tengah hari
+\ct comp. of
+\mn hari
+
+\lx hari
+\sn 1
+\ps Noun
+\pn Nom
+\ge day
+\gn jour
+\re day
+\rn jour
+\dt 04/May/2020
+\se tengah hari
+\cet comp.
+\sn 1
+\ge noon
+\gn midi
+\re noon
+\rn midi
+
+\lx makan
+\sn 1
+\ps Verb
+\pn Verbe
+\ge eat
+\gn manger
+\re eat
+\rn manger
+\xv Setiap pagi utuk sarapan dan makan nasi goreng.
+\xe Every morning I eat fried rice for breakfast.
+\xn Tous les matins, je mange du riz frit pour le petit déjeuner.
+\xv Dua rebus telur ia makan sarapan.
+\dt 04/May/2020
+
+\lx orang
+\hm 1
+\sn 1
+\ge CLF.person
+\dt 19/Jan/2015
+
+\lx orangtua
+\ct der. of
+\mn orang2
+
+\lx orang
+\hm 2
+\sn 1
+\ps Noun
+\pn Nom
+\ge person
+\gn personne
+\rn personne
+\re person
+\xv Berapa banyak orang di keluarga anda?
+\xe How many people are in your family?
+\xn Combien de personnes est dans votre famille ?
+\sn 2
+\ps Noun
+\pn Nom
+\ge man
+\gn homme
+\rn homme
+\re man
+\xv Orang yang berjalan-jalan di hutan.
+\xe The man is walking in the woods.
+\xn L'homme marche dans les bois.
+\sn 3
+\ps Classifier
+\pn Classificateur
+\ge CLF-hum
+\de Classifier used on nouns referring to people.
+\xv Kakek saya adalah seorang pria tua.
+\xe My grandfather is an old man.
+\xn Mon grand-père est un vieil homme.
+\dt 04/May/2020
+\se orang orang
+\cet plder.
+\va orangorang
+\vet sp. var. of
+\sn 1
+\se orangtua
+\cet der.
+\sn 1
+\ps Noun
+\pn Nom
+\ge parent
+\gn parent
+\rn parent
+\re parent
+\xv Saya akan memberikan untuk saya orangtua di usia tua.
+\xe I will provide for my parents in their old age.
+\xn Je vais vous donner pour mes parents dans leur vieillesse.
+
+\lx orangorang
+\vt sp. var.
+\mn orang orang
+\dt 18/Nov/2014
+
+\lx tellur
+\vt sp. var.
+\mn telur
+\dt 04/Sep/2014
+
+\lx kucing
+\co Cats are perhaps the oldest domesticated animals.  Even as far back as ancient Egypt, they were known to be household pets.
+\sn 1
+\ps Noun
+\pn Nom
+\ge feline
+\gn feline
+\de a four-footed mammal with whiskers
+\rn tigre; chaton; lion; chat, sorte de
+\re feline
+\xv Bibi saya, kucing hitam.
+\xe My aunt has a black cat.
+\xn Ma tante a un chat noir.
+\lf gen
+\lv binatang
+\le animal
+\pc Pictures\cat-allergy-cropped.jpg
+\sn 2
+\ps Noun
+\pn Nom
+\ge cat species
+\de one of many wild animals in the cat family
+\re cat species
+\xv Harimau, singa, dan macan kumbang kucing semua besar.
+\xe Tigers, lions, and panthers are all big cats.
+\xn Tigres, lions, panthères et sont tous de grands chats.
+\pc Pictures\lion.jpg
+\dt 04/May/2020
+
+\lx orang orang
+\ct plder. of
+\mn orang2
+
+\lx dingin
+\lf cf
+\lv kedinginan
+\le cold
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge cold
+\gn froid
+\re cold
+\rn froid
+\xv Cuaca sangat dingin di musim dingin.
+\xe The weather is very cold in winter.
+\xn Le temps est très froid en hiver.
+\lf ant
+\lv panas
+\le hot
+\dt 04/May/2020
+
+\lx panas
+\sn 1
+\ps Adjective
+\pn Adjectif
+\ge hot
+\gn chaud
+\re hot
+\rn chaud
+\xv Cuacanya sangat panas di siang hari.
+\xe The weather is very hot at noon.
+\xn Il fait très chaud à midi.
+\lf ant
+\lv dingin
+\le cold
+\dt 04/May/2020
+
+\lx telur
+\va tellur
+\vet sp. var. of
+\sn 1
+\ps Noun
+\pn Nom
+\ge egg
+\gn œuf
+\rn œuf
+\re egg
+\xv Dua rebus telur ia makan sarapan.
+\xe She ate two boiled eggs for breakfast
+\xn Elle mangeait deux œufs durs au petit déjeuner.
+\lf wh
+\lv burung
+\le bird
+\dt 04/May/2020
+
+\lx burung
+\sn 1
+\ps Noun
+\pn Nom
+\ge bird
+\gn oiseau
+\re bird
+\rn oiseau
+\lf pt
+\lv telur
+\le egg
+\lf gen
+\lv binatang
+\le animal
+\dt 04/May/2020
+
+\lx binatang
+\co This is a cover term for all animals.  Different cultures have different ideas about what creatures are "animals".  Some cultures don't include fish or insects.
+\sn 1
+\ps Noun
+\pn Nom
+\ge animal
+\gn animal
+\rn animal
+\re animal
+\xv Salah satu dari beberapa kucing adalah hewan peliharaan.
+\xe Cats are one of the few domesticated animals.
+\xn Le chat est l'un des rares animaux domestiques.
+\lf spec
+\lv kucing 1
+\le feline
+\lf spec
+\lv burung
+\le bird
+\lf spec
+\lv ikan
+\le fish
+\dt 04/May/2020
+
+\lx ikan
+\sn 1
+\ps Noun
+\pn Nom
+\ge fish
+\gn poisson
+\re fish
+\rn poisson
+\lf gen
+\lv binatang
+\le animal
+\dt 04/May/2020
