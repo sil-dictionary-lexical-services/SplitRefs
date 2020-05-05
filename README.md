@@ -15,7 +15,7 @@ SAMPLE FILES:
   * Sample output:	SampleIndo-mod2-AfterSplit.db
 
 SAMPLE USAGE:
-  * ./SplitRefs.pl < SampleIndo-ForSplit.db > SampleIndo-AfterSplit.db
+  * ./SplitRefs.pl < SampleIndo-BeforeSplit.db > SampleIndo-AfterSplit.db
 
 ----------
 NOTES
