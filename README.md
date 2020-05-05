@@ -5,12 +5,14 @@ REQUIRED MODULES: None
 
 INPUT/OUTPUT FILES: specified on command line (STDIN/STDOUT)
 
+USAGE:  perl ./SplitRefs.pl <  MyDatabase.db > MyDatabase-Split.db
+
 LOGFILE: writes a logfile containing (a) fields with parentheses (so they can be checked 
 manually), and (b) any lines that didn't match the expected pattern for an SFM field.
 
 SAMPLE FILES:
-  * Sample input:	SampleIndo-ForSplit.db
-  * Sample output:	SampleIndo-AfterSplit.db
+  * Sample input:	SampleIndo-mod1-BeforeSplit.db
+  * Sample output:	SampleIndo-mod2-AfterSplit.db
 
 SAMPLE USAGE:
   * ./SplitRefs.pl < SampleIndo-ForSplit.db > SampleIndo-AfterSplit.db
