@@ -1,6 +1,23 @@
 # SplitRefs
 Script for splitting compound references in SFM file into multiple single-value fields with the same marker.
 
+REQUIRED MODULES: None
+
+INPUT/OUTPUT FILES: specified on command line (STDIN/STDOUT)
+
+LOGFILE: writes a logfile containing (a) fields with parentheses (so they can be checked 
+manually), and (b) any lines that didn't match the expected pattern for an SFM field.
+
+SAMPLE FILES:
+  * Sample input:	SampleIndo-ForSplit.db
+  * Sample output:	SampleIndo-AfterSplit.db
+
+SAMPLE USAGE:
+  * ./SplitRefs.pl < SampleIndo-ForSplit.db > SampleIndo-AfterSplit.db
+
+----------
+NOTES
+
 There are two scripts here:
 
  * SplitRefs.pl  is a general script that is hardcoded to apply to most of the markers that might need splitting in a standard MDF file: re, rn, cf, va, sy, an
