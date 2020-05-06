@@ -12,10 +12,13 @@ manually), and (b) any lines that didn't match the expected pattern for an SFM f
 
 SAMPLE FILES:
   * Sample input:	SampleIndo-mod1-BeforeSplit.db
-  * Sample output:	SampleIndo-mod2-AfterSplit.db
 
 SAMPLE USAGE:
   * ./SplitRefs.pl < SampleIndo-mod1-BeforeSplit.db > SampleIndo-mod2-AfterSplit.db
+
+EXPECTED OUTPUT (in ExpectedOutput folder):
+  * Sample output:	SampleIndo-mod2-AfterSplit.db
+
 
 ----------
 NOTES
