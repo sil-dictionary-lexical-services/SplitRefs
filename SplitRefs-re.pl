@@ -1,6 +1,9 @@
 #!/usr/bin/perl
 
 use utf8;
+use v5.022;
+use open      qw(:std :utf8);    # undeclared streams in UTF-8
+
 
 # SplitRefs-re.pl < infile.db > outfile.db
 
