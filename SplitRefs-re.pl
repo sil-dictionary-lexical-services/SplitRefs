@@ -26,7 +26,7 @@ use utf8;
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
 # Modified:	BB	 5 May 2020	Added comments to lines that can be customized
 
-$logfile = "splitrefs-re-log.txt";
+$logfile = "SplitRefs-re-log.txt";
 open(LOGFILE, ">$logfile");
 
 $linecount = 0;

@@ -26,7 +26,7 @@ use utf8;
 # Modified:	BB	28 Apr 2018 Convert to SplitRefs-re.pl
 # Modified:	BB	 5 May 2020	Convert to apply to all markers, change name
 
-$logfile = "splitrefs-log.txt";
+$logfile = "SplitRefs-log.txt";
 open(LOGFILE, ">$logfile");
 
 print LOGFILE "References with parentheses, if any (may need hand editing):\n\n";
